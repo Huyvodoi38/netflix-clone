@@ -1,13 +1,15 @@
-import './App.css'
+import AppRoute from "./routes/routers"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
 
   return (
-    <>
-      <div className="min-h-screen flex items-center justify-center bg-black text-white text-4xl font-bold">
-      Tailwind is working!
-      </div>  
-    </>
+    <div>
+      <Header />
+      <AppRoute />
+      <Footer />
+    </div>
   )
 }
 

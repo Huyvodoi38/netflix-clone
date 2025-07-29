@@ -1,7 +1,12 @@
+import Banner from "../components/HomeBanner";
+import Trending from "../components/Trending";
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-white text-4xl font-bold">
-      Tailwind is working!
+    <div>
+      <Banner />
+      <h1 className="text-3xl font-bold mt-10 ml-10 mb-10 px-8">Xu hướng hiện nay</h1>
+      <Trending />
     </div>
   );
 }
